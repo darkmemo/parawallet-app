@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "noEmit": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+  },
+  "exclude": [
+    "node_modules",
+  ],
+}
