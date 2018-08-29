@@ -19,16 +19,22 @@ export default class App extends React.Component {
                         <ListItem
                             key={1}
                             roundAvatar
+                            avatar={require('./images/btc.png')}
+                            avatarOverlayContainerStyle={styles.avatar}
                             title={"Bitcoin"}
                         />
                         <ListItem
                             key={2}
                             roundAvatar
+                            avatarOverlayContainerStyle={styles.avatar}
+                            avatar={require('./images/eth.png')}
                             title={"Ethereum"}
                         />
                         <ListItem
                             key={3}
                             roundAvatar
+                            avatar={require('./images/xrp.png')}
+                            avatarOverlayContainerStyle={styles.avatar}
                             title={"Ripple"}
                         />
                     </List>
@@ -56,4 +62,7 @@ const styles = StyleSheet.create({
     title: {
         textAlign: "center",
     },
+    avatar: {
+        backgroundColor: "#fff",
+    }
 });
